@@ -17,7 +17,7 @@ p {
 
 .box {
   height: 250px;
-  padding: 30px;
+  padding: 30px 30px 10px 30px;
 }
 
 .top {
@@ -76,13 +76,15 @@ p {
 }
 
 
-.left button {
+.left a {
   text-decoration: none;
   color: white;
   font-size: 17px;
   display: block;
   width: 100%;
   height: 50px;
+  line-height: 50px;
+  text-align: center;
   margin: 40px auto 0 auto;
   background-color: hsl(71, 73%, 54%);
   border: none;
@@ -194,7 +196,7 @@ footer a:hover {
     margin-bottom: 0;
   }
 
-  .left button {
+  .left a {
     text-decoration: none;
     color: white;
     font-size: 17px;
