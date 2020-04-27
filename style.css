@@ -70,21 +70,19 @@ p {
 .left .price::after {
   content: "per manth";
   margin-left: 15px;
-  font-size:16px;
+  font-size:14px;
   font-weight: normal;
-  color: hsl(180, 48%, 78%);
+  color: hsla(180, 48%, 78%, 0.9);
 }
 
-.left a {
+
+.left button {
   text-decoration: none;
   color: white;
   font-size: 17px;
-}
-
-.left button {
   display: block;
   width: 100%;
-  height: 60px;
+  height: 50px;
   margin: 40px auto 0 auto;
   background-color: hsl(71, 73%, 54%);
   border: none;
@@ -133,34 +131,29 @@ footer a:hover {
   body {
     max-width: 1440px;
   }
-
-  p {
-    font-size: 18px;
-  }
   
   .container {
-    width: 750px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 45%;
+    margin: 180px auto 50px auto;
   }
 
   .box {
-    padding: 43px 45px 30px 45px;
+    padding: 40px 45px 35px 40px;
   }
 
   .top {
-    height: 180px;
-    line-height: 2.2em;
+    height: 150px;
+    line-height: 2.0em;
   }
 
   .top h1 {
-    font-size: 28px;
+    font-size: 23px;
   }
 
   .top h2 {
-    font-size: 22px;
-    margin-top: 23px;
-    margin-bottom: 5px;
+    font-size: 18px;
+    margin-top: 17px;
+    margin-bottom: 8px;
   }
 
   .top p {
@@ -180,21 +173,44 @@ footer a:hover {
 
   .bottom {
     width: 50%;
+    height: 240px;
+    padding-bottom: 0;
+  }
+
+  .bottom h1 {
+    font-size: 18px;
   }
 
   .left {
     border-radius: 0 0 0 8px;
   }
 
-  .left a {
+  .left p {
+    margin-top: 10px;
+  }
+
+  .left p.price {
+    margin-top: 23px;
+    margin-bottom: 0;
+  }
+
+  .left button {
     text-decoration: none;
     color: white;
     font-size: 17px;
+    margin-top: 25px;
   }
 
   .right {
     border-radius: 0 0 8px 0;
   }
 
+  .right ul li {
+    font-size: 15px;
+    line-height: 1.5em;
+  }
 
+  footer {
+    margin-bottom: 100px;
+  }
 }
